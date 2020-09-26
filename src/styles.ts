@@ -1,5 +1,22 @@
 import styled from 'styled-components';
 
+export const SandboxButton = styled.a`
+  text-decoration: none;
+    padding: 12px 24px;
+    right: 13px;
+    margin-bottom: 20px;
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+    bottom: 0;
+    color: #18191A;
+    font-weight: bold;
+    transition: background-color 0.2;
+    transition: color 0.2;
+
+
+`;
+
 export const Title = styled.h1`
   font-size: 16px;
   font-weight: 600;

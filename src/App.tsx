@@ -1,5 +1,5 @@
 import React, {useState, useEffect, FormEvent} from 'react';
-import {Form, Tasks, Title, SubTitle} from './styles';
+import {Form, Tasks, Title, SubTitle, SandboxButton} from './styles';
 import GlobalStyle from './styles/global';
 import {FiCheck} from 'react-icons/fi';
 import {format} from 'date-fns';
@@ -54,6 +54,7 @@ const App: React.FC = () => {
 
   return (
     <>
+      <SandboxButton href="https://sandbox.design/">go to sandbox.design</SandboxButton>
       <Title>Hello, Pietro</Title>
       <SubTitle>Today is {format(new Date(), 'MMMM dd')}</SubTitle>
       <Form onSubmit={handleAddTask}>
