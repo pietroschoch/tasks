@@ -54,8 +54,8 @@ const App: React.FC = () => {
 
   return (
     <>
-      <SandboxButton href="https://sandbox.design/">go to sandbox.design</SandboxButton>
-      <Title>Hello, Pietro</Title>
+      <SandboxButton href="https://sandbox.design/">created by sandbox.design</SandboxButton>
+      <Title>Slow and always, turtle</Title>
       <SubTitle>Today is {format(new Date(), 'MMMM dd')}</SubTitle>
       <Form onSubmit={handleAddTask}>
         <input
